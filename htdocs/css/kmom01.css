@@ -14,3 +14,133 @@
 .rm-navbar-max {
     display: none;
 }
+
+/* Adding Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+    box-sizing: border-box;
+}
+ /* All a and li without text underline */
+li a {
+    text-decoration: none;
+    font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+/* Center site  */
+.wrap-all {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d0d4db;
+}
+
+.inner-wrap-flash img {
+    width: 100%;
+}
+
+/* Style header */
+.site-logo {
+    display: none;
+}
+
+.site-logo-text a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+/* Style navbar */
+.my-navbar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.my-navbar a {
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+.rm-navbar {
+	text-align: center;
+	font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+	font-size: 1.5em;
+	line-height: 0;
+}
+
+.my-navbar a:hover {
+    border: 1px solid grey;
+    background-color: white;
+}
+
+/* Style Content */
+.article h1 {
+    text-align: center;
+    font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+}
+
+.article p {
+    font-family: 'Pacifico', cursive;
+}
+
+.figure {
+    float:left;
+}
+
+.block {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.block p {
+    font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+}
+
+/* Style byline */
+
+.author-byline {
+	width: 50%;
+	overflow: auto;
+}
+
+.author-byline p {
+    margin-top: 15%;
+}
+/* Style footer */
+
+.footer-column {
+    width: 33%;
+    float: left;
+    background-image: linear-gradient(to bottom, #858585, #989b9d, #a9b2b4, #bdcac5, #d9e0d3);
+    color: black;
+    margin-bottom: 20px;
+}
+/* Style redovisnign and verktyg site */
+.region-sidebar-left, .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 28.125%;
+    margin-right: .52083333%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.next-previous .next {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.region-main.has-sidebar-left {
+    float: left;
+    width: 60%;
+}
