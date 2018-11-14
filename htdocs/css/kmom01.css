@@ -123,7 +123,7 @@ li {
 /* Style redovisnign and verktyg site */
 .region-sidebar-left, .region-sidebar-right {
     display: inline;
-    float: left;
+    float: right;
     width: 28.125%;
     margin-right: .52083333%;
 }
