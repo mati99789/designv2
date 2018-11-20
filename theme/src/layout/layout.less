@@ -1,0 +1,183 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+* General layout
+*/
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.inner-wrap-main {
+    background-color: darkgrey;
+}
+/**
+* Main, and sidebars layout
+*/
+
+.region-sidebar-right,
+.region-sidebar-left {
+    width: 30%;
+    float: left;
+}
+
+.region-main {
+    width: 70%;
+    float: left;
+}
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+//
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+
+/* Adding Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+    box-sizing: border-box;
+}
+
+/* All a and li without text underline */
+li a {
+   text-decoration: none;
+   font-family: Georgia,Times,'Times New Roman',serif;
+   color: black;
+}
+
+li {
+   list-style: none;
+}
+
+/* Center site  */
+.wrap-all {
+   margin: 0 auto;
+   background-color: #d0d4db;
+}
+
+.inner-wrap-flash img {
+   width: 100%;
+}
+
+/* Style header */
+.site-logo {
+   display: none;
+}
+
+.site-logo-text a{
+   text-decoration: none;
+   font-family: 'Lobster', cursive;
+   text-transform: uppercase;
+   font-size: 20px;
+
+}
+/* Style navbar */
+.my-navbar li {
+   display: inline-block;
+   padding: 20px;
+   background-color: darkgrey;
+}
+
+.my-navbar a {
+   text-decoration: none;
+   font-family: 'Lobster', cursive;
+}
+
+.rm-navbar {
+   text-align: center;
+   font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+   font-size: 1.5em;
+   line-height: 0;
+}
+
+// .my-navbar a:hover {
+//    border: 1px solid grey;
+//    background-color: white;
+// }
+
+/* Style Content */
+.article h1 {
+   text-align: center;
+   font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+}
+
+// .article p {
+//    font-family: 'Pacifico', cursive;
+// }
+
+// .figure {
+//    float:left;
+// }
+
+.block {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.block p {
+   font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+}
+
+/* Style byline */
+
+.author-byline {
+   width: 50%;
+   overflow: auto;
+   background-color: grey;
+   margin-bottom: 20px;
+   text-align: center;
+   margin: 20px auto;
+   color: black;
+}
+
+// .author-byline p {
+//    margin-top: 15%;
+// }
+/* Style footer */
+
+.footer-column {
+   width: 33%;
+   float: left;
+   background-color: grey;
+   color: black;
+   margin-bottom: 20px;
+   text-align: center;
+}
+// /* Style redovisnign and verktyg site */
+// .region-sidebar-left, .region-sidebar-right {
+//    display: inline;
+//    float: right;
+//    width: 28.125%;
+//    margin-right: .52083333%;
+// }
+
+.row::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.next-previous .next {
+   float: right;
+   text-align: right;
+   padding-right: 10px;
+}
+
+.region-main.has-sidebar-left {
+   float: left;
+   width: 60%;
+}

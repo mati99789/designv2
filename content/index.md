@@ -1,6 +1,14 @@
 ---
 title: "Min fina titel"
 views:
+    kursrepo:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-kursrepo
+
     byline:
         region: main
         template: anax/v2/block/default
@@ -14,7 +22,6 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
 

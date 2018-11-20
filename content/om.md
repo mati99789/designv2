@@ -26,8 +26,7 @@ views:
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Då var det dags att börja lära sig om design! Spännande ! Mycket nya saker kommer hela tiden men det är bara att sätta sig i de o köra ! 
+Då var det dags att börja lära sig om design! Spännande ! Mycket nya saker kommer hela tiden men det är bara att sätta sig i de o köra !
 
 [FIGURE src=image/programing.jpg?w=300 caption="Bild på programmering."]
