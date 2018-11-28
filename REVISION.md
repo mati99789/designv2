@@ -26,3 +26,8 @@ v2.0.0 (20018-11-20)
 ------------------------
 
 * Done with second project kmom02
+
+v3.0.0 (20018-11-28)
+------------------------
+
+* Done with second project kmom02
