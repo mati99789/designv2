@@ -31,3 +31,8 @@ v3.0.0 (20018-11-28)
 ------------------------
 
 * Done with second project kmom02
+
+v3.0.1 (20018-11-29)
+------------------------
+
+* Added 3 columns on test site
