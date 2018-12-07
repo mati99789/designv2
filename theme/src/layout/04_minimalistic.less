@@ -6,11 +6,27 @@
 /**
  * Variables
  */
-
-
+@backgroundColor: #7F6914;
+@textColor: #FFE275;
+//@fontFamilyBody: Garamond
+@fontFamilyCourier: "Courier New", Courier, monospace;
+//@fontFamilyHeadings: Garamond;
+@navbarColor: #FFD229;
+@footerColor: #CCA821;
 /**
 * General layout
 */
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+    font-family: "Courier New";
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
 
 .row {
     #desinax-vgrid.row();
@@ -19,7 +35,7 @@
 }
 
 .inner-wrap-main {
-    background-color: darkgrey;
+//    background-color: darkgrey;
 }
 
 .inner-wrap {
@@ -58,7 +74,7 @@
 .my-navbar li {
    display: inline-block;
 //   padding: 20px;
-   background-color: #92B6C8;
+   background-color: @navbarColor;
 }
 
 .my-navbar a {
@@ -130,7 +146,7 @@
 
 .footer-column {
     #desinax-vgrid.column(@columns / 3);
-    background-color: #768CA1 !important;
+    background-color: @footerColor !important;
     text-align: center;
 }
 

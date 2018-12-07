@@ -6,11 +6,26 @@
 /**
  * Variables
  */
-
-
+@backgroundColor: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+@textColor: #fff;
+//@fontFamilyBody: Garamond
+@fontFamilyVerdana: Verdana, Geneva, sans-serif;
+//@fontFamilyHeadings: Garamond;
+@navbarColor: #00FFE8;
+@footerColor: #CCA914;
 /**
 * General layout
 */
+
+body {
+    background-image: @backgroundColor;
+    color: @textColor;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
 
 .row {
     #desinax-vgrid.row();
@@ -19,7 +34,7 @@
 }
 
 .inner-wrap-main {
-    background-color: darkgrey;
+//    background-color: darkgrey;
 }
 
 .inner-wrap {
@@ -58,7 +73,7 @@
 .my-navbar li {
    display: inline-block;
 //   padding: 20px;
-   background-color: #92B6C8;
+   background-color: @navbarColor;
 }
 
 .my-navbar a {
@@ -130,7 +145,7 @@
 
 .footer-column {
     #desinax-vgrid.column(@columns / 3);
-    background-color: #768CA1 !important;
+    background-color: @footerColor !important;
     text-align: center;
 }
 

@@ -6,11 +6,23 @@
 /**
  * Variables
  */
-
-
+@backgroundColor: linear-gradient(to right top, #121314, #303537, #515b5a, #78837c, #a8ac9e);
+@textColor: #c1c4c9;
+@fontFamilyBody: monospace;
+@fontFamilyHeadings: monospace;
 /**
 * General layout
 */
+
+body {
+    background-image: @backgroundColor;
+    color: @textColor;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
 
 .row {
     #desinax-vgrid.row();
@@ -19,7 +31,7 @@
 }
 
 .inner-wrap-main {
-    background-color: darkgrey;
+//    background-color: darkgrey;
 }
 
 .inner-wrap {
@@ -58,7 +70,7 @@
 .my-navbar li {
    display: inline-block;
 //   padding: 20px;
-   background-color: #92B6C8;
+   background-color: #706A7F;
 }
 
 .my-navbar a {
@@ -130,7 +142,7 @@
 
 .footer-column {
     #desinax-vgrid.column(@columns / 3);
-    background-color: #768CA1 !important;
+    background-color: #706A7F !important;
     text-align: center;
 }
 

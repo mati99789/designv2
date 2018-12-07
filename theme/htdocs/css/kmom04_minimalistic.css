@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
    * Mixin clearfix.
@@ -4723,6 +4723,15 @@ hr::after {
 /**
 * General layout
 */
+body {
+  background-color: #7F6914;
+  color: #FFE275;
+  font-family: "Courier New";
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
 .row {
   display: block;
   width: 101.04166667%;
@@ -4734,9 +4743,6 @@ hr::after {
   content: "";
   display: block;
   clear: both;
-}
-.inner-wrap-main {
-  background-color: darkgrey;
 }
 .inner-wrap {
   margin-right: auto;
@@ -4781,7 +4787,7 @@ hr::after {
 }
 .my-navbar li {
   display: inline-block;
-  background-color: #92B6C8;
+  background-color: #FFD229;
 }
 .my-navbar a {
   text-decoration: none;
@@ -4880,7 +4886,7 @@ hr::after {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #768CA1 !important;
+  background-color: #CCA821 !important;
   text-align: center;
 }
 .footer-column a {
