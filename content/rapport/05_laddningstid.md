@@ -26,7 +26,7 @@ Enligt PageSpeed Insights så fick hemsida skala på 88 och i mobilt läge 11. N
 
 ### ÅF
 [FIGURE src="image/af.jpg" caption="ÅF hemsida"]
-ÅF enligt PageSpeed Insights hamnar vänligt högt i skalan både för desktop men även för mobil som jag blev jätte förvånad, men det finns alltid något att lägga till att det ska blir bättre när det gäller desktop så kan man läsa in viktiga resureser i förvög eller ta bort resurser som blockerar renderingen. När det gäller på mobilen så kan man läsa in viktiga resurser i förväg som man kunde spara 1650ms. Det verka att bilder på mobil sida skulle man kunna koda bilder effektivt och skicka bilder i modernare bildformat. En grej som jag hade hittat som tyckte inte riktigt om är att bilder saknar "alt" text.
+ÅF enligt PageSpeed Insights hamnar vänligt högt i skalan både för desktop men även för mobil som jag blev jätte förvånad, men det finns alltid något att lägga till att det ska blir bättre när det gäller desktop så kan man läsa in viktiga resureser i förväg eller ta bort resurser som blockerar renderingen. När det gäller på mobilen så kan man läsa in viktiga resurser i förväg som man kunde spara 1650ms. Det verka att bilder på mobil sida skulle man kunna koda bilder effektivt och skicka bilder i modernare bildformat. En grej som jag hade hittat som tyckte inte riktigt om är att bilder saknar "alt" text.
 
 ### Getinge
 [FIGURE src="image/getinge.jpg" caption="Getinge hemsida"]

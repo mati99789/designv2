@@ -50,4 +50,9 @@ v5.0.0 (20018-12-13)
 v6.0.0 (20018-12-24)
 ------------------------
 
-* Done with project kmom06
+* Done with project kmom10
+
+v6.0.0 (20019-01-25)
+------------------------
+
+* Done with project kmom10
